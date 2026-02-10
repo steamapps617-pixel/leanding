@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boost your coding workflow with DevBooster. AI-powered tool to understand, optimize, and translate code directly in your browser.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>DevBooster — AI Coding Buddy | Optimize & Translate Code</title>
+    <link rel="stylesheet" href="/output.css">
+    <style>
+    html {
+        scroll-behavior: smooth !important;
+    }
+
+    button, a {
+        -webkit-tap-highlight-color: transparent;
+    }
+</style>
+</head>
+<body ontouchstart="" class="inset-0 -z-10 h-full w-full bg-[#0c0c31] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-[#8A47CC] opacity-20 blur-[100px]"></div>
+    <header id="header" class="bg-[#161535] max-w-7xl mx-auto p-3 rounded-2xl mt-1 sticky top-0 z-50 border border-[#8A47CC] shadow-xl ">
+        <div class="text-white flex justify-between items-center px-3">
+            <div class="flex justify-center items-center cursor-pointer">
+                <img src="../img/Group.png" alt="LogoDevBooster" class="w-7 h-7">
+                <span class="ml-2 text-[22px] font-medium"><a href="#header">DevBooster</a></span>
+            </div>
+            <nav class="space-x-8 hidden md:flex">
+                <a href="" class="text-[14px] transition duration-200 hover:text-[#8A47CC] active:">How it works</a>
+                <a href="#features" class="text-[14px] transition duration-200 hover:text-[#8A47CC]">Features</a>
+                <a href="" class="text-[14px] transition duration-200 hover:text-[#8A47CC]">Use cases</a>
+                <a href="" class="text-[14px] transition duration-200 hover:text-[#8A47CC]">Support</a>
+                <a href="login.html" class="text-[14px] transition duration-200 hover:text-[#8A47CC]">Login</a>
+            </nav>
+            <div class="hidden md:flex">
+                <button class="text-[16px] border border-[#8A47CC] px-4 py-0.5 rounded-md font-medium transition duration-200 hover:bg-[#8A47CC] cursor-pointer">Start now for free</button>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button id="menu-btn" class="text-white p-2 focus:outline-none">
+                    <svg class="h-8 w-8 transition-transform duration-300" id="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path id="path-burger" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path id="path-close" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden absolute top-[70px] left-0 w-full bg-[#161535] border border-[#8A47CC] rounded-2xl p-6 flex-col z-[100] shadow-2xl mt-5">
+            <nav class="flex flex-col space-y-4 text-center">
+                <a href="#" class="text-white text-lg hover:text-[#8A47CC] transition mb-2">How it works</a>
+                <a href="#features" class="text-white text-lg hover:text-[#8A47CC] transition mb-2">Features</a>
+                <a href="#" class="text-white text-lg hover:text-[#8A47CC] transition mb-2">Use cases</a>
+                <a href="#" class="text-white text-lg hover:text-[#8A47CC] transition mb-2">Support</a>
+                <a href="login.html" class="text-white text-lg hover:text-[#8A47CC] transition mb-2">Login</a>
+                <button class="text-white mt-3 border border-[#8A47CC] px-4 py-2 rounded-md font-medium hover:bg-[#8A47CC] transition">Start now for free</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col justify-center items-center text-center p-[70px] ">
+                    <div>
+                        <img src="../img/Image [scale-with-grid]free.png" alt="LogoDevBooster">
+                    </div>
+                    <div>
+                        <h1 class="text-[#8A47CC]  md:text-5xl text-4xl font-medium">Coding budyy</h1>
+                        <h2 class="text-white md:text-5xl text-4xl font-medium mb-6">Understand & Optimize code <br>directly in your brouser</h2>
+                    </div>
+                    <div class="text-white mb-20">
+                        <p class="md:text-sm text-xs">Boost your coding workfolw - no advanced skills required. <br> 
+                        Let AI help you adapt and perfect any code find online for you project</p>
+                    </div>
+                    <div class="text-white grid md:grid-cols-1 lg:grid-cols-2 gap-3 md:items-center  ">
+                        <div>
+                            <button class="bg-[#8A47CC] px-10 py-2  rounded-lg  transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75"><a href="#tarif">See it in Action</a></button>
+                        </div>
+                        <div>
+                            <button class="bg-[#8A47CC] px-10 py-2 rounded-lg transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">Get the Brouser </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-w-4xl mx-auto">
+                    <p class="flex justify-center items-center text-center text-white">Accelerate your coding from understanding to deployment</p>
+                    <div class="">
+                        <div class="gap-4 mt-5 grid md:grid-cols-1 lg:grid-cols-2 px-16 ">
+                            <div class="bg-[#171733] p-6 rounded-2xl border border-[#31305F] transition duration-200 transform hover:-translate-y-1 hover:shadow-2xl">
+                                <div class="flex justify-between">
+                                    <p class="text-white mb-2">Faster understanding and refactoring</p>
+                                    <p class="text-white text-sm">76%</p>
+                                </div>
+                                <div>
+                                    <img src="../img/Div [bar].png" alt="Faster understanding and refactoring">
+                                </div>
+                            </div>
+                            <div class="bg-[#171733] p-6 rounded-2xl border border-[#31305F] transition duration-200 transform hover:-translate-y-1 hover:shadow-2xl">
+                                <div class="flex justify-between">
+                                    <p class="text-white mb-2">Quicker implementation and texting</p>
+                                    <p class="text-white text-sm">86%</p>
+                                </div>
+                                <div>
+                                    <img src="../img/Div [bar]1.png" alt="Quicker implementation and texting">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="max-w-7xl mx-auto mt-25">
+            <div>
+                <div class="text-center">
+                    <h2 class="text-white text-3xl font-medium">The tool that saves time</h2>
+                    <h3 class="text-[#39EDD1] text-2xl font-medium">for every Developer</h3>
+                </div>
+                <div class="text-center mt-3 mb-10">
+                    <p class="text-[#9695B9] text-sm">No matter their skill level</p>
+                </div>
+                <div class="flex justify-center items-center text-center max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10">
+                        <div class="bg-[#171733] py-10 px-8 rounded-2xl border border-[#31305F]">
+                            <h2 class="text-white text-2xl font-bold mb-2">Seamless Code Translation</h2>
+                            <p class="text-[#9695B9] text-sm">Found the code you need, but it’s in a different <br>
+                                language? DevBooster’s AI translates it instantly <br>
+                                for you!</p>
+                            <button class="text-white border border-[#8A47CC] py-2 px-3 rounded-lg mt-5 mb-6 transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">See It in Action</button>
+                            <div class="flex justify-center">
+                                <img src="../img/Div [image_frame].png" alt="Seamless Code Translation" class="rounded-3xl w-90 object-cover">
+                            </div>
+                        </div>
+
+                        <div class="bg-[#171733] py-10 px-8 rounded-2xl border border-[#31305F]">
+                            <h2 class="text-white text-2xl font-bold mb-2">Instant Code Validation</h2>
+                            <p class="text-[#9695B9] text-sm">Ensure your code is error-free. DevBooster’s AI <br>
+                                quickly checks and validates any code you find <br>
+                                online, giving you confidence it’s ready to go!</p>
+                            <button class="text-white border border-[#8A47CC] py-2 px-3 rounded-lg mt-5 mb-6 transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">See It in Action</button>
+                            <div class="flex justify-center">
+                                <img src="../img/Div [image_frame]1.png" alt="Instant Code Validation" class="rounded-3xl w-90 object-cover">
+                            </div>
+                        </div>
+
+                        <div class="bg-[#171733] py-10 px-8 rounded-2xl border border-[#31305F]">
+                            <h2 class="text-white text-2xl font-bold mb-2">Smart Code Optimization</h2>
+                            <p class="text-[#9695B9] text-sm">Boost performance with AI-driven suggestions. <br>
+                                DevBooster fine-tunes your code to run faster and <br>
+                                more efficiently!</p>
+                            <button class="text-white border border-[#8A47CC] py-2 px-3 rounded-lg mt-5 mb-6 transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">See It in Action</button>
+                            <div class="flex justify-center">
+                                <img src="../img/Div [image_frame]2.png" alt="Smart Code Optimization" class="rounded-3xl w-90 object-cover">
+                            </div>
+                        </div>
+
+                        <div class="bg-[#171733] py-10 px-8 rounded-2xl border border-[#31305F]">
+                            <h2 class="text-white text-2xl font-bold mb-2">Effortless Code Documentation</h2>
+                            <p class="text-[#9695B9] text-sm">Clear, well-documented code made easy. <br>
+                                DevBooster’s AI creates concise, understandable <br>
+                                notes, perfect for learning and sharing.</p>
+                            <button class="text-white border border-[#8A47CC] py-2 px-3 rounded-lg mt-5 mb-6 transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">See It in Action</button>
+                            <div class="flex justify-center">
+                                <img src="../img/Div [image_frame]3.png" alt="Effortless Code Documentation" class="rounded-3xl w-90 object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto">
+            <div>
+                <div class="text-center mt-20 mb-12">
+                    <div>
+                        <span class="text-[#7c2ccc] text-5xl font-medium mb-2">51 423</span>
+                    </div>
+                    <div>
+                        <h2 class="text-white text-2xl">Code snippets analyzed & optimized</h2>
+                        <p class="text-[#9695B9] text-sm">Happy developers worldwide, more time to code</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-4">
+                        <div>
+                            <img src="../img/Div [mfn-queryloop-item-wrapper].png" alt="Jordan Smith" class="w-90 transition duration-200 transform hover:-translate-y-1 hover:shadow-2xl">
+                        </div>
+
+                        <div>
+                            <img src="../img/Div [mfn-queryloop-item-wrapper]1.png" alt="Ethan Johnson" class="w-90 transition duration-200 transform hover:-translate-y-1 hover:shadow-2xl">
+                        </div>
+
+                        <div>
+                            <img src="../img/Div [mfn-queryloop-item-wrapper]2.png" alt="Thomas Green" class="w-90 transition duration-200 transform hover:-translate-y-1 hover:shadow-2xl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tarif" class="max-w-3xl mx-auto">
+            <div>
+                <div>
+                    <div class="mt-25 mb-10 text-center">
+                        <div class="">
+                            <h2 class="text-white text-3xl font-medium">Flexible Plans for Every Developer</h2>
+                        </div>
+                        <div>
+                            <p class="text-[#AAAAC1] text-sm">Choose the plan that suits your needs and start coding smarter with <br>
+                                DevBooster.</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-4">
+                        <div class="flex justify-center items-center text-center">
+                            <div class="bg-[#171733] px-6 py-10 rounded-2xl border border-[#31305F]">
+                                <div class="flex justify-center">
+                                    <img src="../img/Image [scale-with-grid]free.png" alt="LogoDebBooster">
+                                </div>
+                                <p class="text-white text-2xl">Lite</p>
+                                <h2 class="text-[#8D4ACD] text-3xl font-medium">Free</h2>
+                                <div class="flex justify-center mt-3 mb-5">
+                                    <img src="../img/Divider [hr_color].png" alt="Line">
+                                </div>
+                                <div>
+                                    <p></p>
+                                    <img src="../img/List2.png" alt="DevBooster Lite plan features" class="w-50">
+                                </div>
+                                <div class="mt-5">
+                                    <button class="text-white border border-[#8A47CC] px-5 py-2 rounded-md transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">Chek Now</button>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center text-center">
+                            <div class="bg-[#171733] px-6 py-10 rounded-2xl border border-[#31305F]">
+                                <div class="flex justify-center">
+                                    <img src="../img/Image [scale-with-grid]free.png" alt="LogoDebBooster">
+                                </div>
+                                <p class="text-white text-2xl">Pro</p>
+                                <span class="text-[#8D4ACD] text-3xl font-medium">$59</span>
+                                <div class="flex justify-center mt-3 mb-5">
+                                    <img src="../img/Divider [hr_color].png" alt="Line">
+                                </div>
+                                <div>
+                                    <p></p>
+                                    <img src="../img/List1.png" alt="DevBooster Pro plan features" class="w-50">
+                                </div>
+                                <div class="mt-5">
+                                    <button class="text-white border border-[#8A47CC] px-5 py-2 rounded-md transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">Chek Now</button>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center text-center">
+                            <div class="bg-[#171733] px-6 py-10 rounded-2xl border border-[#31305F]">
+                                <div class="flex justify-center">
+                                    <img src="../img/Image [scale-with-grid]free.png" alt="LogoDebBooster">
+                                </div>
+                                <p class="text-white text-2xl">Ultimate</p>
+                                <span class="text-[#8D4ACD] text-3xl font-medium">$99</span>
+                                <div class="flex justify-center mt-3 mb-5">
+                                    <img src="../img/Divider [hr_color].png" alt="Line">
+                                </div>
+                                <div>
+                                    <p></p>
+                                    <img src="../img/List.png" alt="DevBooster Ultimate plan features" class="w-50">
+                                </div>
+                                <div class="mt-5">
+                                    <button class="text-white border border-[#8A47CC] px-5 py-2 rounded-md transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">Chek Now</button>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-10 mb-40 text-xs">
+                        <p class="text-[#B5B5B5]">Please note that for customers located in Europe and other applicable regions, VAT will be added to the total <br>
+                            payment amount as required by law.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto">
+            <div>
+                <div>
+                    <div class="text-center text-5xl font-bold">
+                        <h2 class="text-[#8D4ACD]">Be DevBooster <br>
+                        </h2>
+                    </div>
+                    <div class="text-center mt-6">
+                        <p class="text-[#9695B9] font-medium">Grab any code online, let AI tweak it!</p>
+                    </div>
+                    <div class="flex justify-center mt-9">
+                        <button class="bg-[#8A47CC] text-white px-5 py-3 rounded-md transition-all duration-200 transform hover:-translate-y-1 hover:bg-[#6626a5] hover:shadow-xl cursor-pointer active:scale-90 active:bg-[#6626a5] active:duration-75">Get the Browser Extension</button>
+                    </div>
+                    <div class="flex justify-center items-center mt-6">
+                        <img src="../img//Image1.png" alt="LogoDebBooster">
+                    </div>
+                </div>
+            </div>
+            <div class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-[#8A47CC] opacity-20 blur-[100px]"></div>
+        </section>
+    </main>
+    <footer class="mt-30">
+        <div class="bg-[#101029] p-8">
+            <div class="text-white flex justify-center space-x-30 mt-10 mb-5 ">
+                <div class="grid  md:grid-cols-2 lg:grid-cols-4 gap-13">
+                    <div class="">
+                        <h3 class="text-lg font-medium mb-3">How to start</h3>
+                        <div class="flex flex-col gap-3 mb-8">
+                            <a href="#" class="text-sm">Chrome Extension</a>
+                            <a href="#" class="text-sm">Firefox Extension</a>
+                            <a href="#" class="text-sm">White paper – You and AI</a>
+                            <a href="#" class="text-sm">Guidelines</a>
+                            <a href="#" class="text-sm">Best Practices</a>
+                            <a href="#" class="text-sm">Changelog</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-3">Product</h3>
+                        <div class="flex flex-col gap-3 mb-8">
+                            <a href="#" class="text-sm">How it works</a>
+                            <a href="#" class="text-sm">Pricing</a>
+                            <a href="#" class="text-sm">Lite version</a>
+                            <a href="#" class="text-sm">Pro version</a>
+                            <a href="#" class="text-sm">Ultimate version</a>
+                            <a href="#" class="text-sm">Get free DevBooster Pro</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-3">Features</h3>
+                        <div class="flex flex-col gap-3 mb-8">
+                            <a href="#" class="text-sm">Code validation</a>
+                            <a href="#" class="text-sm">Code optimization</a>
+                            <a href="#" class="text-sm">Code explanation</a>
+                            <a href="#" class="text-sm">Code translation</a>
+                            <a href="#" class="text-sm">Code samples</a>
+                            <a href="#" class="text-sm">Code documentation</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-3">About</h3>
+                        <div class="flex flex-col gap-3 mb-8">
+                            <a href="#" class="text-sm">About</a>
+                            <a href="#" class="text-sm">Blog</a>
+                            <a href="#" class="text-sm">Help Center</a>
+                            <a href="#" class="text-sm">Support</a>
+                            <a href="#" class="text-sm">Terms and conditions</a>
+                            <a href="#" class="text-sm">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-[#9695B9] mb-4"></div>
+            <div class="flex justify-between gap-7">
+                <div>
+                    <p class="text-[#9695B9]">Use DevBooster as your coding buddy: grab any code online,</p>
+                </div>
+                <div>
+                    <p class="text-[#9695B9]">p© 2025 DevBooster by Promotino - Next Level Team | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
